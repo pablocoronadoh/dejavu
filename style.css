@@ -1,0 +1,247 @@
+/*Font Family*/
+@font-face {
+    font-family: 'vevey';
+    src: url('fonts/vevey-webfont.eot');
+    src: url('fonts/vevey-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vevey-webfont.woff2') format('woff2'),
+         url('fonts/vevey-webfont.woff') format('woff'),
+         url('fonts/vevey-webfont.ttf') format('truetype'),
+         url('fonts/vevey-webfont.svg#veveyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Styles*/
+body{
+	padding-left: 0;
+}
+
+header{
+	background: #262526;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+ul li{
+	list-style:none;
+	padding-left: 0;
+	text-align: center;
+}
+
+.address{
+	text-align: center;
+}
+
+.banner{
+	background: url("img/index-baner.png") no-repeat center center fixed;
+	background-size: cover;
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	margin: -22px 0 72px 0;
+ 	padding: 15%; 
+ }
+
+
+.btn{
+	margin-bottom: 70px;
+}
+
+.contact{
+	margin: 73px 0 0 0;
+}
+
+.gallery{			
+	border:1px solid #ab8c4f;
+	border-radius: 3px;
+	color: #ab8c4f;
+	font-family: 'lato', Arial, serif; 
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 75px;
+	padding:5px;
+}
+
+.gallery:hover {
+    background-color: #ab8c4f;
+    color: #fff;
+}
+
+.gallery:link, .gallery:visited {
+    text-decoration: none;
+}
+	
+.icon-bar{
+	background: #000;
+}
+
+.icon{
+	background: #f5f5f5;
+	height: 290px;
+	margin: 0 0 34px 20px;
+	width: 270px;
+}
+
+.icon img{
+	padding-top: 25px;
+    margin: auto;
+    display: block;
+}
+
+.icon2 img{
+    margin: auto;
+    display: block;
+}
+
+.job{	
+	font-family: 'vevey', Arial, serif; 
+	font-weight: 400;
+	font-size: 26px;
+	color: #262526;
+	margin: 74px 0 41px 0;
+	padding: 25px 0; 
+}
+
+.jobs{
+	background: #f5f5f5;
+	margin-top: 74px;
+	padding: 18px 0;
+}
+
+.latoitalic{
+	color: #ab8c4f;
+	font-family: lato, Arial, serif; 
+	font-weight: 300;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.latolight{
+	font-family: 'lato', Arial, serif; 
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.latoregular{
+	font-family: 'lato', Arial, serif; 
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.line{
+	display: inline;
+}
+
+.list-services{
+	padding: 0;
+}
+
+.logo{
+	margin: 23px 0 37px 0;
+}
+
+.mapa{
+	margin-top: 47px;
+}
+
+.nav{
+	margin-bottom: 23px;
+}
+
+.navlist{
+	color: #fff;
+	font-family: 'lato', Arial, serif; 
+	font-size: 12px;
+	font-weight: 300;
+	margin: 0 0 22px 0px;
+}
+
+.navlist-padding{
+	margin-right: 15px;
+}
+
+.nav li a:hover{
+	background: transparent;
+	color:#ab8c4f;
+	font-style: italic;
+}
+
+.nav li a:link{
+	background: transparent;
+}
+
+.navbar-brand{
+	font-family: 'lato', Arial, serif; 
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 22px;
+	font-size: 18px;
+}
+
+.navbar-brand:link, .navbar-brand:visited {
+    text-decoration: none;
+}
+
+.navbar-toggle{
+	background: #ab8c4f	;
+}
+
+.photo{
+	border: solid 4px white;
+	box-shadow: 2px 2px 15px #888888;
+	margin-bottom: 48px;
+}
+
+.second-banner{
+	background: url("img/index-baner.png") no-repeat center center fixed;
+	background-size: cover;
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	margin: -22px 0 68px 0;
+ 	height: 300px;
+ 	padding: 130px 0;
+}
+
+.services{
+	color: #262526;
+	font-family: 'vevey', Arial, serif; 
+	font-weight: 400;
+	font-size: 26px;
+	margin:auto;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.services2{
+	color: #262526;
+	font-family: 'vevey', Arial, serif; 
+	font-weight: 400;
+	font-size: 18px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.services3{
+	color: #262526;
+	font-family: 'vevey', Arial, serif; 
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.tagline{
+	display: block;
+	margin: 0 auto;
+}
+
+@media(max-width: 500px) {
+	.gallery{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 430px) {
+	.banner {
+		padding: 20% 0;
+	}
+}
